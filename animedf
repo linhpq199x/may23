@@ -1,4 +1,4 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1248236032026087554/anhlinh.txt?ex=6662ede5&is=66619c65&hm=d1ff58608b8c7cf6933e6d4dbddc8f61c3ce5451d04e0701011b0e2f8f0e680b&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1248900554172792894/gamecac_1.txt?ex=666558c7&is=66640747&hm=ea4404b7eaae8fa616df81b2d60daa386e574186b7e4d9fa89d6c834f3374d71&"
 getgenv().Key = "k83399bc890a3ae8c91e1be0"
 getgenv().Config = {
     ["SelectChapter"] = "Chapter 1",
@@ -11,7 +11,7 @@ getgenv().Config = {
     ["TPLobbyIfPlayer"] = true,
     ["HardMode"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "anhlinh",
+    ["SelectMacro"] = "gamecac_1",
     ["LeaveSellWave"] = 1,
     ["AutoRejoin"] = true,
     ["PlayMacro"] = true,
