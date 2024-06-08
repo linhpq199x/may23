@@ -1,0 +1,27 @@
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1248236032026087554/anhlinh.txt?ex=6662ede5&is=66619c65&hm=d1ff58608b8c7cf6933e6d4dbddc8f61c3ce5451d04e0701011b0e2f8f0e680b&"
+getgenv().Key = "k83399bc890a3ae8c91e1be0"
+getgenv().Config = {
+    ["SelectChapter"] = "Chapter 1",
+    ["SelectWorld"] = "Windmill Village",
+    ["AutoSell"] = false,
+    ["BlackScreen"] = true,
+    ["SellWave"] = 1,
+    ["WH_MatchComplete"] = true,
+    ["AutoSkip"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["HardMode"] = false,
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "anhlinh",
+    ["LeaveSellWave"] = 1,
+    ["AutoRejoin"] = true,
+    ["PlayMacro"] = true,
+	["OFARecord"]=true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1229106208431018135/xKX-hvw5_HHRBtC9ssFZOrWVwhfwveUh8fjf1SzAYDSRBR2zwDXN4ChWbCdh_XUM339l",
+    ["AutoJoinWorld"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+	["DeleteMap"]=true,
+    ["AutoReplay"] = true,
+    ["AutoLeave"] = false
+}
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
