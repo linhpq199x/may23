@@ -1,27 +1,156 @@
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1168060832966529075/1248900554172792894/gamecac_1.txt?ex=666558c7&is=66640747&hm=ea4404b7eaae8fa616df81b2d60daa386e574186b7e4d9fa89d6c834f3374d71&"
 getgenv().Key = "k83399bc890a3ae8c91e1be0"
 getgenv().Config = {
-    ["SelectChapter"] = "Chapter 1",
-    ["SelectWorld"] = "Windmill Village",
-    ["AutoSell"] = false,
-    ["BlackScreen"] = true,
-    ["SellWave"] = 1,
-    ["WH_MatchComplete"] = true,
-    ["AutoSkip"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["HardMode"] = false,
-    ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "gamecac_1",
-    ["LeaveSellWave"] = 1,
-    ["AutoRejoin"] = true,
-    ["PlayMacro"] = true,
-	["OFARecord"]=true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1229106208431018135/xKX-hvw5_HHRBtC9ssFZOrWVwhfwveUh8fjf1SzAYDSRBR2zwDXN4ChWbCdh_XUM339l",
-    ["AutoJoinWorld"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-	["DeleteMap"]=true,
-    ["AutoReplay"] = true,
-    ["AutoLeave"] = false
+	["LSBomb"] = 1,
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["SelectChapter"] = "Chapter 1",
+	["SelectWorld"] = "Windmill Village",
+	["TPLobbyIfPlayer"] = false,
+	["AutoJoinHoster"] = false,
+	["IgnoreMacroTiming"] = true,
+	["SelectTowerMacro"] = {
+
+	},
+	["WaitForJoiner"] = false,
+	["SelectRaidMacro"] = {
+
+	},
+	["PlayMacro"] = false,
+	["TeleportLobbyNewBanner"] = false,
+	["AutoJoinRaid"] = false,
+	["AutoSummonStandard"] = false,
+	["AutoUseAbility"] = false,
+	["AutoPlayNext"] = false,
+	["SelectReward"] = {
+		["Gold"] = false,
+		["Trait Crystal"] = false,
+		["Star Rift "] = false,
+		["Gems"] = false,
+		["Star Rift (Rainbow)"] = false,
+		["Star Rift (Dark)"] = false,
+		["Risky Dice"] = false
+	},
+	["AutoClaimQuest"] = true,
+	["AutoPlay"] = true,
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Windmill Village"] = 2,
+		["Blue Planet"] = 2,
+		["Tower of Eternity"] = 2,
+		["Mob City"] = 2,
+		["Swordsman Dojo"] = 2,
+		["Snowy Woods"] = 2,
+		["Underwater Temple"] = 2
+	},
+	["UnselectIfSummoned"] = false,
+	["AutoLeave"] = false,
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["LSImplosion"] = 100000,
+	["AutoReplay"] = true,
+	["LSLoop"] = 2,
+	["AutoReturnLobby"] = false,
+	["DeleteMap"] = true,
+	["BlackScreen"] = true,
+	["LeaveSellWave"] = 1,
+	["AutoJoinWorld"] = true,
+	["AutoJoinTower"] = false,
+	["SelectRaidWorld"] = {
+		["Cursed Train"] = false,
+		["Cursed Dungeon"] = false
+	},
+	["UpgradeAndPlace"] = false,
+	["HardMode"] = false,
+	["WH_BannerSummoned"] = false,
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Windmill Village"] = 3.25,
+		["Blue Planet"] = 3.25,
+		["Tower of Eternity"] = 3.25,
+		["Mob City"] = 3.25,
+		["Swordsman Dojo"] = 3.25,
+		["Snowy Woods"] = 3.25,
+		["Underwater Temple"] = 3.25
+	},
+	["AutoJoinChallenge"] = false,
+	["LSDelay"] = 0.4,
+	["AutoSummonLimited"] = false,
+	["LimitedSummonUnit"] = {
+		["Muscular Sorcerer"] = false,
+		["The Rift Sorcerer"] = false,
+		["Blood Demon"] = false,
+		["Beast Sorcerer"] = false,
+		["Cursed Archer"] = false
+	},
+	["SelectChallengeMacro"] = {
+
+	},
+	["AutoUpgrade"] = true,
+	["JoinHighest"] = false,
+	["StandardSummonUnit"] = {
+		["Maxed Qi Master"] = false,
+		["Shinobi Form 3"] = false,
+		["The Gamer"] = false,
+		["Carp"] = false,
+		["Admiral Of Lava"] = false,
+		["Dragon Slayer"] = false,
+		["Pink Rockstar"] = false,
+		["Chance Taker"] = false,
+		["Bloomer"] = false,
+		["Clay"] = false,
+		["Cursed Fighter"] = false,
+		["Thunder Shinobi"] = false,
+		["Fire Leg Master"] = false,
+		["Elf Wizardess"] = false,
+		["The Beast"] = false,
+		["Curse Prince"] = false,
+		["Ascended Qi Master"] = false,
+		["Flame Dragon King"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Esper"] = false,
+		["Ant King"] = false,
+		["Sharpshooter"] = false,
+		["Skull Warrior"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Admiral Of Light"] = false,
+		["Master Swordsman"] = false
+	},
+	["AutoRejoin"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1229106208431018135/xKX-hvw5_HHRBtC9ssFZOrWVwhfwveUh8fjf1SzAYDSRBR2zwDXN4ChWbCdh_XUM339l",
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Windmill Village"] = false,
+		["Mob City"] = false,
+		["Swordsman Dojo"] = false,
+		["Snowy Woods"] = false,
+		["Underwater Temple"] = false
+	},
+	["MiddlePos"] = {
+		["Windmill Village"] = "-1670.3905029296875, 24.114013671875, -528.476806640625"
+	},
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All enemies +1 shield"] = false,
+		["All units increased cost"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	},
+	["BoostFPS"] = true
 }
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
